@@ -10,7 +10,7 @@ const burger = (props) => {
                 return <BurgerIngredient key = {igKey + i} type = {igKey}/>
             })
         })
-        .reduce((cur, pre ) => {
+        .reduce((cur, pre) => {
             return cur.concat(pre)
         })
 
